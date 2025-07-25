@@ -94,7 +94,7 @@ Each person includes:
 The generator includes authentic organizations across key sectors:
 
 **Beverage Industry:**
-- PepsiCo, Coca-Cola, Dr Pepper Snapple, Red Bull, Monster, Nestle Waters, Starbucks
+- Coca-Cola, PepsiCo, Dr Pepper Snapple, Red Bull, Monster, Nestle Waters, Starbucks
 
 **Consumer Goods & Food:**
 - Unilever, P&G, Kraft Heinz, General Mills, Kellogg
@@ -110,7 +110,7 @@ The generator includes authentic organizations across key sectors:
 
 ## Use Cases
 
-- **Marketing Demos**: Showcase semantic marketing platforms
+- **Business Demos**: Showcase semantic data platforms
 - **Data Integration**: Test RDF data processing pipelines  
 - **Knowledge Graphs**: Populate graph databases for development
 - **Training**: Educational examples for RDF and FOAF concepts
