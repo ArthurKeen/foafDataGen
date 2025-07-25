@@ -1,0 +1,746 @@
+@prefix ex: <http://example.org/people/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org1: <http://example.org/organizations/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+org1:Amazon a foaf:Organization ;
+    rdfs:comment "Sector: Technology/Retail" ;
+    foaf:homepage <https://www.amazon.com> ;
+    foaf:name "Amazon" .
+
+org1:Dr_Pepper_Snapple_Group a foaf:Organization ;
+    rdfs:comment "Sector: Beverage" ;
+    foaf:homepage <https://www.drpeppersnapplegroup.com> ;
+    foaf:name "Dr Pepper Snapple Group" .
+
+org1:Google_LLC a foaf:Organization ;
+    rdfs:comment "Sector: Technology" ;
+    foaf:homepage <https://www.google.com> ;
+    foaf:name "Google LLC" .
+
+org1:Interpublic_Group a foaf:Organization ;
+    rdfs:comment "Sector: Advertising" ;
+    foaf:homepage <https://www.interpublic.com> ;
+    foaf:name "Interpublic Group" .
+
+org1:Kraft_Heinz a foaf:Organization ;
+    rdfs:comment "Sector: Food" ;
+    foaf:homepage <https://www.kraftheinzcompany.com> ;
+    foaf:name "Kraft Heinz" .
+
+org1:Meta_Platforms a foaf:Organization ;
+    rdfs:comment "Sector: Technology" ;
+    foaf:homepage <https://www.meta.com> ;
+    foaf:name "Meta Platforms" .
+
+org1:Microsoft_Corporation a foaf:Organization ;
+    rdfs:comment "Sector: Technology" ;
+    foaf:homepage <https://www.microsoft.com> ;
+    foaf:name "Microsoft Corporation" .
+
+org1:Omnicom_Group a foaf:Organization ;
+    rdfs:comment "Sector: Advertising" ;
+    foaf:homepage <https://www.omnicomgroup.com> ;
+    foaf:name "Omnicom Group" .
+
+org1:PepsiCo a foaf:Organization ;
+    rdfs:comment "Sector: Beverage" ;
+    foaf:homepage <https://www.pepsico.com> ;
+    foaf:name "PepsiCo" .
+
+org1:Procter_and_Gamble a foaf:Organization ;
+    rdfs:comment "Sector: Consumer Goods" ;
+    foaf:homepage <https://www.pg.com> ;
+    foaf:name "Procter & Gamble" .
+
+org1:Publicis_Groupe a foaf:Organization ;
+    rdfs:comment "Sector: Advertising" ;
+    foaf:homepage <https://www.publicisgroupe.com> ;
+    foaf:name "Publicis Groupe" .
+
+org1:Starbucks_Corporation a foaf:Organization ;
+    rdfs:comment "Sector: Beverage" ;
+    foaf:homepage <https://www.starbucks.com> ;
+    foaf:name "Starbucks Corporation" .
+
+org1:Target_Corporation a foaf:Organization ;
+    rdfs:comment "Sector: Retail" ;
+    foaf:homepage <https://www.target.com> ;
+    foaf:name "Target Corporation" .
+
+org1:The_Coca-Cola_Company a foaf:Organization ;
+    rdfs:comment "Sector: Beverage" ;
+    foaf:homepage <https://www.coca-colacompany.com> ;
+    foaf:name "The Coca-Cola Company" .
+
+org1:Unilever a foaf:Organization ;
+    rdfs:comment "Sector: Consumer Goods" ;
+    foaf:homepage <https://www.unilever.com> ;
+    foaf:name "Unilever" .
+
+org1:WPP_Group a foaf:Organization ;
+    rdfs:comment "Sector: Advertising" ;
+    foaf:homepage <https://www.wpp.com> ;
+    foaf:name "WPP Group" .
+
+org1:Apple_Inc a foaf:Organization ;
+    rdfs:comment "Sector: Technology" ;
+    foaf:homepage <https://www.apple.com> ;
+    foaf:name "Apple Inc." .
+
+org1:Nestle_Waters a foaf:Organization ;
+    rdfs:comment "Sector: Beverage" ;
+    foaf:homepage <https://www.nestle.com> ;
+    foaf:name "Nestle Waters" .
+
+org1:Red_Bull_GmbH a foaf:Organization ;
+    rdfs:comment "Sector: Beverage" ;
+    foaf:homepage <https://www.redbull.com> ;
+    foaf:name "Red Bull GmbH" .
+
+org1:General_Mills a foaf:Organization ;
+    rdfs:comment "Sector: Food" ;
+    foaf:homepage <https://www.generalmills.com> ;
+    foaf:name "General Mills" .
+
+ex:person_10 a foaf:Person ;
+    foaf:age 51 ;
+    foaf:familyName "Whitaker" ;
+    foaf:firstName "Matthew" ;
+    foaf:interest [ rdfs:label "Consumer Trends" ],
+        [ rdfs:label "Customer Experience" ] ;
+    foaf:knows ex:person_1,
+        ex:person_14,
+        ex:person_16,
+        ex:person_22,
+        ex:person_3,
+        ex:person_9 ;
+    foaf:mbox <mailto:matthew.whitaker@stephens.com> ;
+    foaf:name "Matthew Whitaker" ;
+    foaf:phone <tel:+1-726-568-7464x66073> ;
+    foaf:title "Chief Marketing Officer" ;
+    foaf:topic_interest [ rdfs:label "Market Research" ],
+        [ rdfs:label "Brand Management" ],
+        [ rdfs:label "Innovation" ],
+        [ rdfs:label "Partnership Development" ] ;
+    foaf:workplaceHomepage org1:Red_Bull_GmbH .
+
+ex:person_16 a foaf:Person ;
+    foaf:familyName "Porter" ;
+    foaf:firstName "Dana" ;
+    foaf:homepage <https://www.linkedin.com/in/dana-porter> ;
+    foaf:interest [ rdfs:label "Digital Transformation" ],
+        [ rdfs:label "Consumer Psychology" ],
+        [ rdfs:label "Innovation Management" ],
+        [ rdfs:label "Crisis Management" ],
+        [ rdfs:label "Competitive Intelligence" ] ;
+    foaf:knows ex:person_10,
+        ex:person_14,
+        ex:person_2 ;
+    foaf:mbox <mailto:dana.porter@nichols.com> ;
+    foaf:name "Dana Porter" ;
+    foaf:phone <tel:(266)997-6684x2884> ;
+    foaf:title "Sustainability Manager" ;
+    foaf:topic_interest [ rdfs:label "Cross-functional Collaboration" ],
+        [ rdfs:label "Data Analysis" ],
+        [ rdfs:label "Budget Management" ] ;
+    foaf:workplaceHomepage org1:Unilever .
+
+ex:person_15 a foaf:Person ;
+    foaf:age 39 ;
+    foaf:familyName "Mcclure" ;
+    foaf:firstName "Lydia" ;
+    foaf:homepage <https://www.linkedin.com/in/lydia-mcclure> ;
+    foaf:interest [ rdfs:label "Market Research" ],
+        [ rdfs:label "Consumer Psychology" ],
+        [ rdfs:label "Consumer Trends" ],
+        [ rdfs:label "Product Development" ],
+        [ rdfs:label "Retail Strategy" ] ;
+    foaf:knows ex:person_1,
+        ex:person_13,
+        ex:person_14,
+        ex:person_2,
+        ex:person_20,
+        ex:person_21,
+        ex:person_22,
+        ex:person_23,
+        ex:person_5 ;
+    foaf:mbox <mailto:lydia.mcclure@sparks.com> ;
+    foaf:name "Lydia Mcclure" ;
+    foaf:title "Product Manager" ;
+    foaf:topic_interest [ rdfs:label "Data Analysis" ],
+        [ rdfs:label "Partnership Development" ],
+        [ rdfs:label "Innovation" ],
+        [ rdfs:label "Consumer Insights" ],
+        [ rdfs:label "Strategic Planning" ],
+        [ rdfs:label "Trend Analysis" ],
+        [ rdfs:label "Market Research" ] ;
+    foaf:workplaceHomepage org1:The_Coca-Cola_Company .
+
+ex:person_17 a foaf:Person ;
+    foaf:age 54 ;
+    foaf:familyName "Wall" ;
+    foaf:firstName "Teresa" ;
+    foaf:interest [ rdfs:label "Competitive Intelligence" ],
+        [ rdfs:label "Product Development" ],
+        [ rdfs:label "Retail Strategy" ] ;
+    foaf:knows ex:person_1,
+        ex:person_14,
+        ex:person_18,
+        ex:person_4,
+        ex:person_5,
+        ex:person_8 ;
+    foaf:mbox <mailto:teresa.wall@faulkner.com> ;
+    foaf:name "Teresa Wall" ;
+    foaf:phone <tel:001-812-502-5597x975> ;
+    foaf:title "Channel Development Manager" ;
+    foaf:topic_interest [ rdfs:label "Cross-functional Collaboration" ],
+        [ rdfs:label "Leadership" ],
+        [ rdfs:label "Brand Management" ],
+        [ rdfs:label "Innovation" ],
+        [ rdfs:label "Strategic Planning" ] ;
+    foaf:workplaceHomepage org1:Amazon .
+
+ex:person_21 a foaf:Person ;
+    foaf:familyName "Hurst" ;
+    foaf:firstName "Robert" ;
+    foaf:homepage <https://www.linkedin.com/in/robert-hurst> ;
+    foaf:interest [ rdfs:label "Content Strategy" ],
+        [ rdfs:label "Competitive Intelligence" ],
+        [ rdfs:label "Innovation Management" ],
+        [ rdfs:label "Consumer Trends" ] ;
+    foaf:knows ex:person_13,
+        ex:person_15,
+        ex:person_18,
+        ex:person_2,
+        ex:person_23,
+        ex:person_25,
+        ex:person_9 ;
+    foaf:mbox <mailto:robert.hurst@miller.org> ;
+    foaf:name "Robert Hurst" ;
+    foaf:title "Digital Marketing Director" ;
+    foaf:topic_interest [ rdfs:label "Cross-functional Collaboration" ],
+        [ rdfs:label "Market Research" ],
+        [ rdfs:label "Partnership Development" ] ;
+    foaf:workplaceHomepage org1:Publicis_Groupe .
+
+ex:person_24 a foaf:Person ;
+    foaf:age 37 ;
+    foaf:familyName "Lewis" ;
+    foaf:firstName "William" ;
+    foaf:interest [ rdfs:label "Consumer Psychology" ],
+        [ rdfs:label "Digital Transformation" ] ;
+    foaf:knows ex:person_1,
+        ex:person_11,
+        ex:person_12,
+        ex:person_16,
+        ex:person_18,
+        ex:person_4,
+        ex:person_9 ;
+    foaf:mbox <mailto:william.lewis@santiago-clarke.com> ;
+    foaf:name "William Lewis" ;
+    foaf:phone <tel:915.351.8987x0872> ;
+    foaf:title "Sustainability Manager" ;
+    foaf:topic_interest [ rdfs:label "Trend Analysis" ],
+        [ rdfs:label "Brand Management" ],
+        [ rdfs:label "Digital Marketing" ],
+        [ rdfs:label "Project Management" ],
+        [ rdfs:label "Data Analysis" ],
+        [ rdfs:label "Cross-functional Collaboration" ] ;
+    foaf:workplaceHomepage org1:Apple_Inc .
+
+ex:person_20 a foaf:Person ;
+    foaf:age 33 ;
+    foaf:familyName "Davis" ;
+    foaf:firstName "Linda" ;
+    foaf:interest [ rdfs:label "Supply Chain Optimization" ],
+        [ rdfs:label "Social Media Marketing" ] ;
+    foaf:knows ex:person_11,
+        ex:person_12,
+        ex:person_13,
+        ex:person_19,
+        ex:person_4,
+        ex:person_5,
+        ex:person_9 ;
+    foaf:mbox <mailto:linda.davis@finley-sherman.com> ;
+    foaf:name "Linda Davis" ;
+    foaf:phone <tel:(432)892-8925x6714> ;
+    foaf:title "Brand Manager" ;
+    foaf:topic_interest [ rdfs:label "Consumer Insights" ],
+        [ rdfs:label "Customer Segmentation" ],
+        [ rdfs:label "Cross-functional Collaboration" ],
+        [ rdfs:label "Innovation" ],
+        [ rdfs:label "Leadership" ] ;
+    foaf:workplaceHomepage org1:Nestle_Waters .
+
+ex:person_23 a foaf:Person ;
+    foaf:familyName "Warren" ;
+    foaf:firstName "Ashley" ;
+    foaf:interest [ rdfs:label "Digital Transformation" ],
+        [ rdfs:label "Supply Chain Optimization" ] ;
+    foaf:knows ex:person_11,
+        ex:person_15,
+        ex:person_18,
+        ex:person_21,
+        ex:person_6 ;
+    foaf:mbox <mailto:ashley.warren@young-henry.com> ;
+    foaf:name "Ashley Warren" ;
+    foaf:title "Portfolio Manager" ;
+    foaf:topic_interest [ rdfs:label "Market Research" ],
+        [ rdfs:label "Partnership Development" ],
+        [ rdfs:label "Brand Management" ],
+        [ rdfs:label "Leadership" ],
+        [ rdfs:label "Data Analysis" ] ;
+    foaf:workplaceHomepage org1:Interpublic_Group .
+
+ex:person_3 a foaf:Person ;
+    foaf:familyName "Miller" ;
+    foaf:firstName "Maria" ;
+    foaf:interest [ rdfs:label "Retail Strategy" ],
+        [ rdfs:label "Competitive Intelligence" ] ;
+    foaf:knows ex:person_1,
+        ex:person_10,
+        ex:person_11,
+        ex:person_22,
+        ex:person_4,
+        ex:person_5,
+        ex:person_6,
+        ex:person_7 ;
+    foaf:mbox <mailto:maria.miller@bates.biz> ;
+    foaf:name "Maria Miller" ;
+    foaf:phone <tel:578.481.7149> ;
+    foaf:title "Supply Chain Manager" ;
+    foaf:topic_interest [ rdfs:label "Consumer Insights" ],
+        [ rdfs:label "Market Research" ],
+        [ rdfs:label "Data Analysis" ],
+        [ rdfs:label "Brand Management" ],
+        [ rdfs:label "Trend Analysis" ] ;
+    foaf:workplaceHomepage org1:Nestle_Waters .
+
+ex:person_4 a foaf:Person ;
+    foaf:age 51 ;
+    foaf:familyName "Werner" ;
+    foaf:firstName "Joseph" ;
+    foaf:homepage <https://www.linkedin.com/in/joseph-werner> ;
+    foaf:interest [ rdfs:label "Innovation Management" ],
+        [ rdfs:label "Customer Experience" ],
+        [ rdfs:label "Content Strategy" ] ;
+    foaf:knows ex:person_11,
+        ex:person_14,
+        ex:person_17,
+        ex:person_20,
+        ex:person_21,
+        ex:person_22,
+        ex:person_25,
+        ex:person_3,
+        ex:person_7 ;
+    foaf:mbox <mailto:joseph.werner@norris.info> ;
+    foaf:name "Joseph Werner" ;
+    foaf:phone <tel:807.663.3671x619> ;
+    foaf:title "Communications Director" ;
+    foaf:topic_interest [ rdfs:label "Brand Management" ],
+        [ rdfs:label "Partnership Development" ],
+        [ rdfs:label "Leadership" ] ;
+    foaf:workplaceHomepage org1:Microsoft_Corporation .
+
+ex:person_6 a foaf:Person ;
+    foaf:age 40 ;
+    foaf:familyName "Clark" ;
+    foaf:firstName "Bruce" ;
+    foaf:homepage <https://www.linkedin.com/in/bruce-clark> ;
+    foaf:interest [ rdfs:label "Product Development" ],
+        [ rdfs:label "Crisis Management" ] ;
+    foaf:knows ex:person_11,
+        ex:person_19,
+        ex:person_23,
+        ex:person_3,
+        ex:person_5,
+        ex:person_8 ;
+    foaf:mbox <mailto:bruce.clark@wolfe.com> ;
+    foaf:name "Bruce Clark" ;
+    foaf:phone <tel:257-789-5280x953> ;
+    foaf:title "Brand Strategy Director" ;
+    foaf:topic_interest [ rdfs:label "Customer Segmentation" ],
+        [ rdfs:label "Strategic Planning" ],
+        [ rdfs:label "Leadership" ],
+        [ rdfs:label "Consumer Insights" ] ;
+    foaf:workplaceHomepage org1:Target_Corporation .
+
+ex:person_8 a foaf:Person ;
+    foaf:age 45 ;
+    foaf:familyName "Burns" ;
+    foaf:firstName "Melissa" ;
+    foaf:interest [ rdfs:label "Sustainability" ],
+        [ rdfs:label "Innovation Management" ],
+        [ rdfs:label "E-commerce" ],
+        [ rdfs:label "Data Analytics" ],
+        [ rdfs:label "Retail Strategy" ] ;
+    foaf:knows ex:person_1,
+        ex:person_12,
+        ex:person_17,
+        ex:person_2,
+        ex:person_22,
+        ex:person_5,
+        ex:person_6,
+        ex:person_7 ;
+    foaf:mbox <mailto:melissa.burns@wilson.org> ;
+    foaf:name "Melissa Burns" ;
+    foaf:title "Channel Development Manager" ;
+    foaf:topic_interest [ rdfs:label "Data Analysis" ],
+        [ rdfs:label "Customer Segmentation" ],
+        [ rdfs:label "Cross-functional Collaboration" ],
+        [ rdfs:label "Digital Marketing" ] ;
+    foaf:workplaceHomepage org1:Starbucks_Corporation .
+
+ex:person_18 a foaf:Person ;
+    foaf:age 48 ;
+    foaf:familyName "Vega" ;
+    foaf:firstName "Patricia" ;
+    foaf:homepage <https://www.linkedin.com/in/patricia-vega> ;
+    foaf:interest [ rdfs:label "Data Analytics" ],
+        [ rdfs:label "Marketing Strategy" ],
+        [ rdfs:label "Supply Chain Optimization" ] ;
+    foaf:knows ex:person_1,
+        ex:person_13,
+        ex:person_14,
+        ex:person_17,
+        ex:person_21,
+        ex:person_23,
+        ex:person_24,
+        ex:person_25,
+        ex:person_5 ;
+    foaf:mbox <mailto:patricia.vega@allen.net> ;
+    foaf:name "Patricia Vega" ;
+    foaf:phone <tel:(303)210-4918> ;
+    foaf:title "Trade Marketing Manager" ;
+    foaf:topic_interest [ rdfs:label "Market Research" ],
+        [ rdfs:label "Cross-functional Collaboration" ],
+        [ rdfs:label "Brand Management" ] ;
+    foaf:workplaceHomepage org1:Apple_Inc .
+
+ex:person_19 a foaf:Person ;
+    foaf:familyName "Wolf" ;
+    foaf:firstName "Sherry" ;
+    foaf:interest [ rdfs:label "Consumer Psychology" ],
+        [ rdfs:label "Data Analytics" ],
+        [ rdfs:label "Customer Experience" ],
+        [ rdfs:label "Partnership Development" ],
+        [ rdfs:label "Market Research" ] ;
+    foaf:knows ex:person_1,
+        ex:person_12,
+        ex:person_13,
+        ex:person_18,
+        ex:person_2,
+        ex:person_20,
+        ex:person_24,
+        ex:person_25,
+        ex:person_6,
+        ex:person_7 ;
+    foaf:mbox <mailto:sherry.wolf@harper.info> ;
+    foaf:name "Sherry Wolf" ;
+    foaf:phone <tel:543.333.6444> ;
+    foaf:title "Marketing Analytics Manager" ;
+    foaf:topic_interest [ rdfs:label "Partnership Development" ],
+        [ rdfs:label "Cross-functional Collaboration" ],
+        [ rdfs:label "Strategic Planning" ] ;
+    foaf:workplaceHomepage org1:Meta_Platforms .
+
+ex:person_22 a foaf:Person ;
+    foaf:age 64 ;
+    foaf:familyName "Ryan" ;
+    foaf:firstName "Steven" ;
+    foaf:interest [ rdfs:label "Digital Transformation" ],
+        [ rdfs:label "Social Media Marketing" ],
+        [ rdfs:label "E-commerce" ],
+        [ rdfs:label "Market Research" ] ;
+    foaf:knows ex:person_10,
+        ex:person_11,
+        ex:person_23,
+        ex:person_3,
+        ex:person_4,
+        ex:person_5,
+        ex:person_7,
+        ex:person_8,
+        ex:person_9 ;
+    foaf:mbox <mailto:steven.ryan@page.org> ;
+    foaf:name "Steven Ryan" ;
+    foaf:phone <tel:001-722-281-9997> ;
+    foaf:title "Innovation Director" ;
+    foaf:topic_interest [ rdfs:label "Partnership Development" ],
+        [ rdfs:label "Cross-functional Collaboration" ],
+        [ rdfs:label "Leadership" ],
+        [ rdfs:label "Digital Marketing" ],
+        [ rdfs:label "Budget Management" ],
+        [ rdfs:label "Campaign Management" ],
+        [ rdfs:label "Innovation" ] ;
+    foaf:workplaceHomepage org1:Red_Bull_GmbH .
+
+ex:person_25 a foaf:Person ;
+    foaf:familyName "Ramirez" ;
+    foaf:firstName "Kyle" ;
+    foaf:homepage <https://www.linkedin.com/in/kyle-ramirez> ;
+    foaf:interest [ rdfs:label "Social Media Marketing" ],
+        [ rdfs:label "Product Development" ] ;
+    foaf:knows ex:person_11,
+        ex:person_13,
+        ex:person_14,
+        ex:person_19,
+        ex:person_4 ;
+    foaf:mbox <mailto:kyle.ramirez@white.com> ;
+    foaf:name "Kyle Ramirez" ;
+    foaf:phone <tel:512-533-3713x977> ;
+    foaf:title "Channel Development Manager" ;
+    foaf:topic_interest [ rdfs:label "Brand Management" ],
+        [ rdfs:label "Budget Management" ],
+        [ rdfs:label "Cross-functional Collaboration" ],
+        [ rdfs:label "Innovation" ],
+        [ rdfs:label "Data Analysis" ],
+        [ rdfs:label "Customer Segmentation" ],
+        [ rdfs:label "Partnership Development" ] ;
+    foaf:workplaceHomepage org1:Procter_and_Gamble .
+
+ex:person_7 a foaf:Person ;
+    foaf:familyName "Scott" ;
+    foaf:firstName "Courtney" ;
+    foaf:interest [ rdfs:label "Sustainability" ],
+        [ rdfs:label "Market Research" ],
+        [ rdfs:label "Innovation Management" ],
+        [ rdfs:label "E-commerce" ] ;
+    foaf:knows ex:person_1,
+        ex:person_11,
+        ex:person_15,
+        ex:person_19,
+        ex:person_22,
+        ex:person_24,
+        ex:person_25,
+        ex:person_3,
+        ex:person_8 ;
+    foaf:mbox <mailto:courtney.scott@johnson-wagner.com> ;
+    foaf:name "Courtney Scott" ;
+    foaf:phone <tel:298-648-7462x9825> ;
+    foaf:title "Business Development Manager" ;
+    foaf:topic_interest [ rdfs:label "Strategic Planning" ],
+        [ rdfs:label "Partnership Development" ],
+        [ rdfs:label "Campaign Management" ],
+        [ rdfs:label "Brand Management" ],
+        [ rdfs:label "Innovation" ],
+        [ rdfs:label "Project Management" ],
+        [ rdfs:label "Leadership" ] ;
+    foaf:workplaceHomepage org1:WPP_Group .
+
+ex:person_9 a foaf:Person ;
+    foaf:familyName "Mclaughlin" ;
+    foaf:firstName "Erin" ;
+    foaf:homepage <https://www.linkedin.com/in/erin-mclaughlin> ;
+    foaf:interest [ rdfs:label "Market Research" ],
+        [ rdfs:label "Supply Chain Optimization" ] ;
+    foaf:knows ex:person_10,
+        ex:person_12,
+        ex:person_13,
+        ex:person_14,
+        ex:person_20,
+        ex:person_22,
+        ex:person_24 ;
+    foaf:mbox <mailto:erin.mclaughlin@jenkins-bell.com> ;
+    foaf:name "Erin Mclaughlin" ;
+    foaf:phone <tel:955-508-4690x58935> ;
+    foaf:title "Innovation Director" ;
+    foaf:topic_interest [ rdfs:label "Strategic Planning" ],
+        [ rdfs:label "Digital Marketing" ],
+        [ rdfs:label "Campaign Management" ],
+        [ rdfs:label "Trend Analysis" ] ;
+    foaf:workplaceHomepage org1:Omnicom_Group .
+
+ex:person_2 a foaf:Person ;
+    foaf:age 46 ;
+    foaf:familyName "Black" ;
+    foaf:firstName "Michelle" ;
+    foaf:interest [ rdfs:label "Customer Experience" ],
+        [ rdfs:label "Retail Strategy" ] ;
+    foaf:knows ex:person_1,
+        ex:person_12,
+        ex:person_13,
+        ex:person_14,
+        ex:person_15,
+        ex:person_16,
+        ex:person_19,
+        ex:person_21,
+        ex:person_3,
+        ex:person_8 ;
+    foaf:mbox <mailto:michelle.black@haney.com> ;
+    foaf:name "Michelle Black" ;
+    foaf:phone <tel:225-892-8268x45023> ;
+    foaf:title "Business Development Manager" ;
+    foaf:topic_interest [ rdfs:label "Customer Segmentation" ],
+        [ rdfs:label "Digital Marketing" ],
+        [ rdfs:label "Strategic Planning" ] ;
+    foaf:workplaceHomepage org1:PepsiCo .
+
+ex:person_5 a foaf:Person ;
+    foaf:age 60 ;
+    foaf:familyName "Tucker" ;
+    foaf:firstName "Joshua" ;
+    foaf:homepage <https://www.linkedin.com/in/joshua-tucker> ;
+    foaf:interest [ rdfs:label "Customer Experience" ],
+        [ rdfs:label "Partnership Development" ] ;
+    foaf:knows ex:person_12,
+        ex:person_15,
+        ex:person_17,
+        ex:person_18,
+        ex:person_6 ;
+    foaf:mbox <mailto:joshua.tucker@miller.biz> ;
+    foaf:name "Joshua Tucker" ;
+    foaf:title "Product Manager" ;
+    foaf:topic_interest [ rdfs:label "Campaign Management" ],
+        [ rdfs:label "Partnership Development" ],
+        [ rdfs:label "Data Analysis" ] ;
+    foaf:workplaceHomepage org1:Dr_Pepper_Snapple_Group .
+
+ex:person_12 a foaf:Person ;
+    foaf:age 47 ;
+    foaf:familyName "Ford" ;
+    foaf:firstName "Theresa" ;
+    foaf:homepage <https://www.linkedin.com/in/theresa-ford> ;
+    foaf:interest [ rdfs:label "Data Analytics" ],
+        [ rdfs:label "Customer Experience" ] ;
+    foaf:knows ex:person_1,
+        ex:person_11,
+        ex:person_19,
+        ex:person_2,
+        ex:person_20,
+        ex:person_24,
+        ex:person_5,
+        ex:person_6,
+        ex:person_7,
+        ex:person_8,
+        ex:person_9 ;
+    foaf:mbox <mailto:theresa.ford@juarez-gibson.org> ;
+    foaf:name "Theresa Ford" ;
+    foaf:phone <tel:(361)206-0975x697> ;
+    foaf:title "Digital Marketing Director" ;
+    foaf:topic_interest [ rdfs:label "Consumer Insights" ],
+        [ rdfs:label "Digital Marketing" ],
+        [ rdfs:label "Customer Segmentation" ],
+        [ rdfs:label "Campaign Management" ] ;
+    foaf:workplaceHomepage org1:General_Mills .
+
+ex:person_13 a foaf:Person ;
+    foaf:age 33 ;
+    foaf:familyName "Robinson" ;
+    foaf:firstName "Caitlin" ;
+    foaf:interest [ rdfs:label "Retail Strategy" ],
+        [ rdfs:label "Brand Development" ],
+        [ rdfs:label "Product Development" ],
+        [ rdfs:label "Supply Chain Optimization" ],
+        [ rdfs:label "Marketing Strategy" ] ;
+    foaf:knows ex:person_11,
+        ex:person_14,
+        ex:person_16,
+        ex:person_19,
+        ex:person_2,
+        ex:person_20,
+        ex:person_21,
+        ex:person_25,
+        ex:person_9 ;
+    foaf:mbox <mailto:caitlin.robinson@wade-malone.info> ;
+    foaf:name "Caitlin Robinson" ;
+    foaf:title "Portfolio Manager" ;
+    foaf:topic_interest [ rdfs:label "Partnership Development" ],
+        [ rdfs:label "Customer Segmentation" ],
+        [ rdfs:label "Data Analysis" ] ;
+    foaf:workplaceHomepage org1:General_Mills .
+
+ex:person_14 a foaf:Person ;
+    foaf:age 34 ;
+    foaf:familyName "Garcia" ;
+    foaf:firstName "Carlos" ;
+    foaf:interest [ rdfs:label "Market Research" ],
+        [ rdfs:label "Brand Development" ],
+        [ rdfs:label "Customer Experience" ],
+        [ rdfs:label "Social Media Marketing" ],
+        [ rdfs:label "Competitive Intelligence" ] ;
+    foaf:knows ex:person_12,
+        ex:person_13,
+        ex:person_16,
+        ex:person_17,
+        ex:person_18,
+        ex:person_2,
+        ex:person_25,
+        ex:person_4,
+        ex:person_9 ;
+    foaf:mbox <mailto:carlos.garcia@perez.com> ;
+    foaf:name "Carlos Garcia" ;
+    foaf:title "Communications Director" ;
+    foaf:topic_interest [ rdfs:label "Strategic Planning" ],
+        [ rdfs:label "Budget Management" ],
+        [ rdfs:label "Data Analysis" ],
+        [ rdfs:label "Trend Analysis" ],
+        [ rdfs:label "Leadership" ],
+        [ rdfs:label "Brand Management" ],
+        [ rdfs:label "Consumer Insights" ] ;
+    foaf:workplaceHomepage org1:General_Mills .
+
+ex:person_1 a foaf:Person ;
+    foaf:age 57 ;
+    foaf:familyName "Nash" ;
+    foaf:firstName "Randall" ;
+    foaf:homepage <https://www.linkedin.com/in/randall-nash> ;
+    foaf:interest [ rdfs:label "Content Strategy" ],
+        [ rdfs:label "Retail Strategy" ],
+        [ rdfs:label "Competitive Intelligence" ],
+        [ rdfs:label "Partnership Development" ],
+        [ rdfs:label "E-commerce" ] ;
+    foaf:knows ex:person_10,
+        ex:person_11,
+        ex:person_12,
+        ex:person_15,
+        ex:person_17,
+        ex:person_18,
+        ex:person_19,
+        ex:person_2,
+        ex:person_23,
+        ex:person_7,
+        ex:person_8 ;
+    foaf:mbox <mailto:randall.nash@brown.com> ;
+    foaf:name "Randall Nash" ;
+    foaf:phone <tel:+1-834-475-2052> ;
+    foaf:title "Customer Marketing Manager" ;
+    foaf:topic_interest [ rdfs:label "Strategic Planning" ],
+        [ rdfs:label "Cross-functional Collaboration" ],
+        [ rdfs:label "Digital Marketing" ],
+        [ rdfs:label "Consumer Insights" ],
+        [ rdfs:label "Campaign Management" ],
+        [ rdfs:label "Partnership Development" ],
+        [ rdfs:label "Data Analysis" ] ;
+    foaf:workplaceHomepage org1:Kraft_Heinz .
+
+ex:person_11 a foaf:Person ;
+    foaf:familyName "Campbell" ;
+    foaf:firstName "Maureen" ;
+    foaf:interest [ rdfs:label "Innovation Management" ],
+        [ rdfs:label "Marketing Strategy" ],
+        [ rdfs:label "Sustainability" ],
+        [ rdfs:label "Data Analytics" ] ;
+    foaf:knows ex:person_1,
+        ex:person_12,
+        ex:person_13,
+        ex:person_20,
+        ex:person_22,
+        ex:person_23,
+        ex:person_24,
+        ex:person_25,
+        ex:person_3,
+        ex:person_6,
+        ex:person_7 ;
+    foaf:mbox <mailto:maureen.campbell@brown.biz> ;
+    foaf:name "Maureen Campbell" ;
+    foaf:title "Marketing Analytics Manager" ;
+    foaf:topic_interest [ rdfs:label "Brand Management" ],
+        [ rdfs:label "Strategic Planning" ],
+        [ rdfs:label "Customer Segmentation" ],
+        [ rdfs:label "Trend Analysis" ],
+        [ rdfs:label "Digital Marketing" ],
+        [ rdfs:label "Leadership" ] ;
+    foaf:workplaceHomepage org1:Google_LLC .
+
